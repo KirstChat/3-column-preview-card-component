@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+  --orange: #e28625;
+  --cyan: #006971;
+  --dark-green: #004140;
+  --off-white: #f2f2f2;
+  --white: #fff;
+
+  --heading-font: 'Big Shoulders Display', cursive;
+  --main-font: 'Lexend Deca', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--off-white);
+  font-family: var(--main-font);
+  padding: 5.5rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-bottom: 2rem;
+}
+
+/* Card Generic */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 442px;
+  padding: 3rem;
+  width: 327px;
+}
+
+.card__icon {
+  width: 64px;
+}
+
+.card__heading {
+  color: var(--off-white);
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+}
+
+.card__description {
+  color: var(--white);
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 0.75;
+  margin-top: 1.5rem;
+}
+
+/* Cards */
+.card.card-1 {
+  background: var(--orange);
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card.card-2 {
+  background: var(--cyan);
+}
+
+.card.card-3 {
+  background: var(--dark-green);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+/* Card Buttons */
+.card .btn {
+  background: var(--off-white);
+  border: 2px solid var(--off-white);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  padding: 0.9rem 0;
+  width: 146px;
+}
+
+.card .btn:hover {
+  background: transparent;
+  color: var(--off-white);
+}
+
+.card-1 .btn {
+  color: var(--orange);
+}
+
+.card-2 .btn {
+  color: var(--cyan);
+}
+
+.card-3 .btn {
+  color: var(--dark-green);
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--orange);
+}
+
+/* Media Queries */
+@media screen and (min-width: 1023px) {
+  body {
+    height: 100vh;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 0;
+  }
+
+  /* Card Generic */
+  .card {
+    height: 500px;
+    width: 307px;
+  }
+
+  /* Cards */
+  .card.card-1 {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  .card.card-3 {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  /* Footer */
+  .attribution {
+    position: absolute;
+    bottom: 1rem;
+  }
+}
