@@ -50,6 +50,7 @@ body {
   color: var(--off-white);
   font-family: var(--heading-font);
   font-size: 2.5rem;
+  text-transform: uppercase;
 }
 
 .card__description {
@@ -132,6 +133,10 @@ body {
     width: 307px;
   }
 
+  .card__heading {
+    margin-top: 2rem;
+  }
+
   /* Cards */
   .card.card-1 {
     border-radius: 0.5rem 0 0 0.5rem;
@@ -139,6 +144,11 @@ body {
 
   .card.card-3 {
     border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  /* Card Buttons */
+  .card .btn {
+    margin-top: 5rem;
   }
 
   /* Footer */
