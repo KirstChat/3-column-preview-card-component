@@ -119,6 +119,7 @@ body {
 @media screen and (min-width: 1023px) {
   body {
     height: 100vh;
+    padding: 0;
   }
 
   .container {
