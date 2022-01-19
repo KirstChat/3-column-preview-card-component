@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/solution-for-3column-preview-lwJcW1oQ\_](https://www.frontendmentor.io/solutions/solution-for-3column-preview-lwJcW1oQ_)
 - Live Site URL: [https://kirstchat.github.io/3-column-preview-card-component/](https://kirstchat.github.io/3-column-preview-card-component/)
 
 ## My process
