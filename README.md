@@ -29,8 +29,6 @@ Users should be able to:
 - Solution URL: [https://www.frontendmentor.io/solutions/solution-for-3column-preview-lwJcW1oQ\_](https://www.frontendmentor.io/solutions/solution-for-3column-preview-lwJcW1oQ_)
 - Live Site URL: [https://kirstchat.github.io/3-column-preview-card-component/](https://kirstchat.github.io/3-column-preview-card-component/)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
