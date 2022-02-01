@@ -4,16 +4,13 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
+- [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-  - [Built with](#built-with)
-  - [Author](#author)
+- [Built with](#built-with)
+- [Author](#author)
 
-## Overview
-
-### The challenge
+## The challenge
 
 Users should be able to:
 
@@ -29,7 +26,7 @@ Users should be able to:
 - Solution URL: [https://www.frontendmentor.io/solutions/solution-for-3column-preview-lwJcW1oQ\_](https://www.frontendmentor.io/solutions/solution-for-3column-preview-lwJcW1oQ_)
 - Live Site URL: [https://kirstchat.github.io/3-column-preview-card-component/](https://kirstchat.github.io/3-column-preview-card-component/)
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -37,8 +34,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### Author
+## Author
 
-- LinkedIn - [Kirsty Chatterton](https://www.linkedin.com/in/kirsty-c-154781a4/)
-- Github - [KirstChat](https://github.com/KirstChat)
 - Frontend Mentor - [@KirstChat](https://www.frontendmentor.io/profile/KirstChat)
+- LinkedIn - [Kirsty Chatterton](https://www.linkedin.com/in/kirsty-c-154781a4/)
